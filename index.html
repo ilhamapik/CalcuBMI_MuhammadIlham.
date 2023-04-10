@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>TPA2 BMI muhammad ilham</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="login-page">
+        <div class="form">
+            <h1 class="title">Selamat Datang Di Calculator BMI</h1>
+
+            <p for="weight" class="text1">Weight (KG):</p>
+            <input type="text" id="weight" placeholder="weight" />
+
+            <!-- height -->
+            <p for="height " class="text1">Height (CM):</p>
+            <input type="text" id="height" placeholder="Height" />
+            <button onclick="calculateBMI()">Hitung</button>
+            <!-- hasil -->
+            <p for="result" class="text1">Hasil:</p>
+            <input type="text" id="result" disabled><br><br>
+            <!-- status -->
+            <p class="text1" for="status">Status BMI:</p>
+            <input type="text" id="status" disabled><br><br>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
